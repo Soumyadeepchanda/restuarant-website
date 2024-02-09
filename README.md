@@ -26,10 +26,9 @@ This project is a responsive restaurant website designed using HTML, CSS, and Ja
 
 To view the website, simply open the `index.html` file in your web browser. Alternatively, you can host the files on a web server.
 
-## Screenshots
+## Working
+[screen-capture (1).webm](https://github.com/Soumyadeepchanda/restuarant-website/assets/93461379/cede7129-d92f-40b7-9b29-3737770558d3)
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
 
 ## Credits
 
