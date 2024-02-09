@@ -1,0 +1,385 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Navbar Section */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* Set text color */
+    transition: color 0.3s ease; /* Add transition effect */
+}
+
+.logo:hover {
+    color: #f9c74f; /* Change color on hover */
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Home Section */
+.home {
+    background-color: #f9c74f; /* Yellow */
+    padding: 100px 0;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.home .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home .btn:hover {
+    background-color: #555;
+}
+
+/* Specialty Section */
+.specialty {
+    background-color: #90be6d; /* Green */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.specialty h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.specialty-items {
+    display: flex;
+    justify-content: center;
+}
+
+.specialty-item {
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.specialty-item:hover {
+    transform: translateY(-10px);
+}
+
+.specialty-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.specialty-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Popular Products Section */
+.popular-products {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.popular-products h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.popular-products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    padding: 20px;
+    background-color: #f4a261; /* Orange */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+.menu {
+    padding: 50px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.menu h2 {
+    margin-bottom: 20px; /* Add space between the heading and the image */
+    font-size: 30px;
+}
+.menu-image {
+    text-align: center;
+    width: 100%; /* Ensure the menu image spans the full width of its container */
+    margin-top: 20px; /* Adjust margin as needed */
+    max-width: 100%; /* Set the maximum width */
+}
+
+.menu-image img {
+    width: 1140px; /* Make the image fill the entire width of its container */
+    height: 500px; /* Let the height adjust automatically to maintain aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Image Gallery Section */
+.image-gallery {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.image-gallery h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-images img {
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    height: 300px;
+}
+
+.gallery-images img:hover {
+    transform: scale(1.05);
+}
+
+/* Steps Section */
+.steps {
+    background-color: #a05195; /* Purple */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.steps h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.steps-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.step {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.step h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Review Card Section */
+.review {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.review h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.review-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.review-card {
+    flex: 1;
+    padding: 20px;
+    background-color: #457b9d; /* Blue */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.review-card h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Order Contact Form Section */
+.order-contact {
+    background-color: #f4a261; /* Orange */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.order-contact h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.order-contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.order-contact input,
+.order-contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order-contact .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-contact .btn:hover {
+    background-color: #555;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Scroll to Top Button */
+.scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+
+/* Loading Animation */
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    animation: fadeOut 1s ease forwards;
+}
