@@ -30,10 +30,3 @@ To view the website, simply open the `index.html` file in your web browser. Alte
 [screen-capture (1).webm](https://github.com/Soumyadeepchanda/restuarant-website/assets/93461379/cede7129-d92f-40b7-9b29-3737770558d3)
 
 
-## Credits
-
-This project was inspired by [Tutorial Name/Author] and [Source].
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
